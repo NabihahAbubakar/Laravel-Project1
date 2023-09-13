@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+   background-image: url('https://plus.unsplash.com/premium_photo-1668367779014-4a0073f7c04a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHVycGxlfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+
+#box{
+   background-color: #eee;
+   height: 90px;
+   width:140px;
+   position: fixed;
+   bottom:5px;
+   left: 5px;
+   border: 2px solid black;
+
+}
+   
+
+#box p, h1{
+   text-align: center;
+   font-size: medium;
+}
+
+/* Nav bar css */
+
+
+#nav{
+   height: 50px;
+   background-color: #d8c1e8;
+   position: fixed;
+   top:0px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   box-sizing: border-box;
+
+}
+button{
+   background-color: black;
+   color: white;
+   margin-right: 7px;
+   margin-left: 7px;
+}
+
+button:hover{
+   background-color: #6d4985;
+}
+
+#logo{
+   color: #333;
+   font-size: 1.5rem;
+}
+a{
+   text-decoration: none;
+   color: black;
+   margin-right: 130px;
+   font-weight: bolder;
+   font-size: large;
+   /* display: flex;
+   /* justify-content: center; */     /* This is not giving any output */
+   display: block;
+}
+
+
+/* Nav bar css */
+
+
+
+ /* HTML form css */
+
+.form-container{
+   
+    min-height: 113vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    /* background: #2c59d4;       HERE WE CAN ALSO ADD BACKGROUND IMAGE */
+ }
+ 
+ .form-container form{
+    padding:30px;
+    border-radius: 60px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #d8c1e8;
+    text-align: center;
+    width: 500px;
+ }
+ 
+ .form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#333;
+ }
+ 
+ .form-container form input,
+ .form-container form select{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 15px;
+    margin:8px 0;
+    background: #eee;
+    border-radius: 5px;
+ }
+ 
+ .form-container form select option{
+    background: #fff;
+ }
+ 
+ .form-container form .form-btn{
+    background: #000000;
+    color:rgb(251, 251, 248);
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ 
+ .form-container form .form-btn:hover{
+    background: #6d4985;
+    color:#d8c1e8;
+ }
+ 
+ .form-container form p{
+    margin-top: 10px;
+    font-size: 18px;
+    color:#333;
+    
+ }
+ 
+ .form-container form p a{
+    color:rgb(59, 41, 100);
+    
+ }
+
+ a:hover{
+   color: rgb(135, 116, 179);
+}
+ 
+ .form-container form .error-msg{
+    margin:10px 0;
+    display: block;
+    background: rgb(220, 20, 20);
+    color:#fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+ }
+
+ /* HTML form css */
+
+/* Gallery */
+.best h1{
+font-family: 'Segoe UI';
+font-weight: 700;
+font-size: 30px;
+}
+
+.row{
+   margin: 50px !important;
+   padding: 50px !important;
+}
+/* Gallery end*/
+
+/* HOME CSS */
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: rgb(135, 116, 179);
+}
+
+/* HOME CSS  end*/
+
+
+ /* Footer start*/
+
+footer{
+   background-color: #d8c1e8;
+   color: #000000;
+   text-align: center;
+}
+
+
+  /* Footer end */
+
+
+  /* carousel start*/
+  .carousel {
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+   z-index: -1;
+ }
+ 
+ .carousel-caption h1{
+   bottom: 6rem;
+   color: #ffffff;
+ }
+ .carousel-caption p{
+   color: #fffefe;
+   font-size: 60px;
+   margin-bottom: 120px;
+   font-weight: bolder; 
+ }
+ 
+.order{
+background-color: rgb(135, 116, 179) ;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+.carousel .order:hover{
+    background-color: #000000;   /*  why is this not working? */
+}
+
+.carousel-item img {
+   height: 36rem;
+   opacity: 0.5;
+}
+ /* carousel end*/
+
+
+
+ /* Aptech Task */
+
+.equal{
+   color: blue;
+}
+
+ .null, .wrong{
+   color: red;
+
+ }
